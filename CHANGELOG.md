@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.1
+
+### Added
+
+- Security review prompt for AI-assisted PR review.
+- Security Reviewer Agent template.
+
+### Changed
+
+- Updated check command to include security-aware AI workflow files.
+- Updated README, examples, launch materials, and OpenAI OSS application draft.
+
 ## v0.1.0
 
 Initial release of AI Team Agent Kit.

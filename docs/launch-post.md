@@ -10,9 +10,12 @@ AI Team Agent Kit adds a reusable AI-agent operating system to a repository in s
 - Codex/Copilot-style instructions
 - multi-role pull request review prompts
 - product value review prompt
+- security review prompt
 - business automation discovery prompt
 - employee AI automation training guide
 - AI workflow playbook
+
+It also includes reusable security review prompts so teams can flag risky AI-generated changes before they reach production.
 
 Try it:
 

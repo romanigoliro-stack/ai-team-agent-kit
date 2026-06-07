@@ -25,7 +25,8 @@ Examples:
 
 Commands:
   init    Add AGENTS.md, coding-agent instructions, review prompts,
-          agent roles, a PR template, training, and a workflow playbook.
+          security review, agent roles, a PR template, training,
+          and a workflow playbook.
   check   Score the target repository against the recommended AI-agent setup.
   help    Show this help message.
 

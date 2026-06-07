@@ -1,6 +1,6 @@
 {
   "name": "ai-team-agent-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight toolkit for teams adopting AI coding agents, structured PR review, and business automation workflows.",
   "license": "MIT",
   "author": "AI Team Agent Kit contributors",

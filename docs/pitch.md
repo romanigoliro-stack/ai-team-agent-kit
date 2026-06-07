@@ -36,6 +36,7 @@ It creates:
 
 - improves AI output quality through shared instructions
 - standardizes pull request review
+- adds security-aware pull request review for risky changes
 - adds product-value thinking to technical work
 - helps employees identify automation opportunities
 - requires no API key or paid integration
@@ -50,8 +51,9 @@ This is not an AI code reviewer. It does not call an LLM. It gives teams the str
 1. Open a repository without AI workflow files.
 2. Run `npx ai-team-agent-kit init`.
 3. Show the generated `AGENTS.md`, prompts, agent roles, pull request template, training guide, and playbook.
-4. Run `npx ai-team-agent-kit check`.
-5. Show the setup score and recommendations.
+4. Show the security review prompt and Security Reviewer Agent for risky changes.
+5. Run `npx ai-team-agent-kit check`.
+6. Show the setup score and recommendations.
 
 ## Roadmap
 

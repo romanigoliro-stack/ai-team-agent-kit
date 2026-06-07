@@ -10,6 +10,8 @@ Instead of using AI assistants with vague one-off prompts, the toolkit gives rep
 
 The project is intentionally lightweight and API-free, so any team can use it immediately with Codex, GitHub Copilot, Claude, Cursor, or other AI coding agents.
 
+The project now includes security-aware pull request review templates and human approval rules for risky changes such as authentication, authorization, payments, user data, secrets, migrations, destructive operations, and third-party integrations.
+
 My broader goal is to help companies train employees to use AI not as a toy, but as a reliable workflow for software development, code review, documentation, and business process automation.
 
 ## Why it matters
@@ -38,6 +40,7 @@ The toolkit supports:
 - maintainer guidance for AI-assisted contributions
 - documentation expectations
 - security and human review boundaries
+- security-aware pull request review templates
 - product value review
 - repeatable business automation discovery
 

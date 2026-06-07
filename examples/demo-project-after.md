@@ -14,9 +14,11 @@ AGENTS.md
 .github/prompts/code-review-subagents.prompt.md
 .github/prompts/pr-product-review.prompt.md
 .github/prompts/automation-map.prompt.md
+.github/prompts/security-review.prompt.md
 .github/agents/code-reviewer.agent.md
 .github/agents/product-value-reviewer.agent.md
 .github/agents/automation-coach.agent.md
+.github/agents/security-reviewer.agent.md
 .github/PULL_REQUEST_TEMPLATE.md
 training/ai-automation-for-employees.md
 docs/ai-workflow-playbook.md
@@ -32,4 +34,4 @@ changes, suggested improvements, missing tests, product impact,
 and final decision.
 ```
 
-The team now has reusable rules, review prompts, agent roles, training material, and a playbook that can evolve with the repository.
+The team now has reusable rules, review prompts, security review guidance, agent roles, training material, and a playbook that can evolve with the repository.

@@ -35,6 +35,7 @@ AI Team Agent Kit gives teams a ready-to-use workflow baseline:
 - reusable prompt files
 - sub-agent pull request review workflow
 - product value review prompt
+- security review prompt
 - business automation discovery prompt
 - employee AI automation training guide
 - AI workflow playbook
@@ -121,16 +122,16 @@ Shows command usage and examples.
 ```text
 AI Team Agent Kit check
 • Target: /work/my-repo
-• Score: 82/100 - Good but incomplete. Add the missing files to standardize the workflow.
-✓ Present files: 9/11
+• Score: 85/100 - Good but incomplete. Add the missing files to standardize the workflow.
+✓ Present files: 11/13
 
 Missing files:
+⚠ .github/prompts/security-review.prompt.md
 ⚠ training/ai-automation-for-employees.md
-⚠ docs/ai-workflow-playbook.md
 
 Recommendations:
+• Add reusable prompt files for code review, product review, security review, and automation discovery.
 • Add employee training material so non-engineering teams can map automation opportunities.
-• Add a workflow playbook so teams know how to use these files consistently.
 ```
 
 ## What files it creates
@@ -141,9 +142,11 @@ AGENTS.md
 .github/prompts/code-review-subagents.prompt.md
 .github/prompts/pr-product-review.prompt.md
 .github/prompts/automation-map.prompt.md
+.github/prompts/security-review.prompt.md
 .github/agents/code-reviewer.agent.md
 .github/agents/product-value-reviewer.agent.md
 .github/agents/automation-coach.agent.md
+.github/agents/security-reviewer.agent.md
 .github/PULL_REQUEST_TEMPLATE.md
 training/ai-automation-for-employees.md
 docs/ai-workflow-playbook.md
@@ -180,6 +183,7 @@ This kit gives teams a common operating model for AI-assisted work. The files li
 
 - bootstrap AI coding agent rules for a new repository
 - standardize pull request review prompts
+- add reusable security review to AI-assisted pull requests
 - add product-value review to technical changes
 - teach employees how to identify automation opportunities
 - create a lightweight AI adoption playbook for a team
@@ -224,8 +228,25 @@ The generated files help teams answer questions like:
 - What should a pull request description include when AI assistance was used?
 - How should a security reviewer inspect a pull request?
 - Does this pull request improve product value?
+- Does this pull request change authentication, payments, user data, migrations, secrets, or destructive operations?
 - What business process is a good candidate for AI automation?
 - Where should a human approve an AI-assisted workflow?
+
+## Security-aware AI workflows
+
+AI-generated changes still need human judgment. The generated security review prompt and Security Reviewer Agent help teams flag risky changes before they reach production.
+
+Use them when a pull request touches:
+
+- destructive changes
+- authentication or authorization
+- payments or billing
+- user data or personal data
+- migrations
+- secrets or environment variables
+- third-party integrations
+
+These changes should require human approval before release.
 
 ## Security and privacy
 

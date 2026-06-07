@@ -10,9 +10,11 @@ const REQUIRED_FILES = [
   ".github/prompts/code-review-subagents.prompt.md",
   ".github/prompts/pr-product-review.prompt.md",
   ".github/prompts/automation-map.prompt.md",
+  ".github/prompts/security-review.prompt.md",
   ".github/agents/code-reviewer.agent.md",
   ".github/agents/product-value-reviewer.agent.md",
   ".github/agents/automation-coach.agent.md",
+  ".github/agents/security-reviewer.agent.md",
   ".github/PULL_REQUEST_TEMPLATE.md",
   "training/ai-automation-for-employees.md",
   "docs/ai-workflow-playbook.md"
@@ -26,11 +28,11 @@ function buildRecommendations(missingFiles) {
   }
 
   if (missingFiles.some((filePath) => filePath.startsWith(".github/prompts/"))) {
-    recommendations.push("Add reusable prompt files for code review, product review, and automation discovery.");
+    recommendations.push("Add reusable prompt files for code review, product review, security review, and automation discovery.");
   }
 
   if (missingFiles.some((filePath) => filePath.startsWith(".github/agents/"))) {
-    recommendations.push("Add agent role files so reviewers know their responsibilities and output format.");
+    recommendations.push("Add agent role files so code, product, automation, and security reviewers know their responsibilities.");
   }
 
   if (missingFiles.includes(".github/PULL_REQUEST_TEMPLATE.md")) {
