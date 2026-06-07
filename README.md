@@ -10,7 +10,7 @@ AI Team Agent Kit adds a reusable AI-agent operating system to your repository i
 npx ai-team-agent-kit init
 ```
 
-Publishing note: the package is ready, but npm publishing is pending local maintainer authentication. The `npx` command will work after the first npm publish completes.
+The npm package is available at https://www.npmjs.com/package/ai-team-agent-kit.
 
 This project is not another AI code reviewer. It does not call an LLM, does not require an API key, and does not send your code anywhere. It gives your repository practical files that help people and AI coding agents work with the same rules.
 
@@ -59,7 +59,11 @@ Run directly with `npx`:
 npx ai-team-agent-kit init
 ```
 
-If npm publishing is still pending, clone the repository and run `node bin/cli.js help` locally.
+Check the generated workflow files:
+
+```bash
+npx ai-team-agent-kit check
+```
 
 Or install globally:
 
@@ -139,6 +143,8 @@ Recommendations:
 ```
 
 ## What files it creates
+
+`init` creates 13 AI-agent workflow files:
 
 ```text
 AGENTS.md
