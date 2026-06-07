@@ -1,6 +1,12 @@
 # npm Publish Blocker
 
-Publishing to npm is currently blocked because local npm authentication is missing.
+Publishing to npm is currently blocked by the npm account security policy.
+
+Local npm authentication works, but `npm publish --access public` returns:
+
+```text
+Two-factor authentication or granular access token with bypass 2fa enabled is required to publish packages.
+```
 
 The package is otherwise ready:
 
@@ -18,6 +24,13 @@ npm login
 cd "/Users/romanigol/Documents/AI Team Agent Kit"
 npm publish --access public
 ```
+
+If npm still requires extra security, complete one of these in the npm account:
+
+- enable two-factor authentication for publishing
+- create a granular access token with publish permission and two-factor bypass enabled
+
+Do not paste tokens into chat. If using a token, configure it locally through npm's documented authentication flow.
 
 After publishing, verify public usage:
 

@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/romanigoliro-stack/ai-team-agent-kit#readme",
   "bin": {
-    "ai-team-agent-kit": "./bin/cli.js"
+    "ai-team-agent-kit": "bin/cli.js"
   },
   "engines": {
     "node": ">=18"
