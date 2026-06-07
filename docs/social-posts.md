@@ -20,7 +20,7 @@ It gives developers, founders, engineering managers, open-source maintainers, an
 
 GitHub: https://github.com/romanigoliro-stack/ai-team-agent-kit
 
-npm: https://www.npmjs.com/package/ai-team-agent-kit
+npm: pending publication
 
 ## X/Twitter
 
@@ -36,7 +36,7 @@ No LLM calls. No API key. Just useful repo workflow files.
 
 GitHub: https://github.com/romanigoliro-stack/ai-team-agent-kit
 
-npm: https://www.npmjs.com/package/ai-team-agent-kit
+npm: pending publication
 
 ## Telegram
 
@@ -58,4 +58,4 @@ Useful for developers, founders, maintainers, engineering managers, and AI autom
 
 GitHub: https://github.com/romanigoliro-stack/ai-team-agent-kit
 
-npm: https://www.npmjs.com/package/ai-team-agent-kit
+npm: pending publication
