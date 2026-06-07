@@ -1,0 +1,53 @@
+{
+  "name": "ai-team-agent-kit",
+  "version": "0.1.0",
+  "description": "A lightweight toolkit for teams adopting AI coding agents, structured PR review, and business automation workflows.",
+  "license": "MIT",
+  "author": "AI Team Agent Kit contributors",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanigoliro-stack/ai-team-agent-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romanigoliro-stack/ai-team-agent-kit/issues"
+  },
+  "homepage": "https://github.com/romanigoliro-stack/ai-team-agent-kit#readme",
+  "bin": {
+    "ai-team-agent-kit": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "smoke": "node bin/cli.js help && node bin/cli.js check --target templates",
+    "check:templates": "node bin/cli.js check --target templates"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "examples",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "keywords": [
+    "ai-agents",
+    "codex",
+    "github-copilot",
+    "claude",
+    "cursor",
+    "developer-tools",
+    "automation",
+    "prompt-engineering",
+    "code-review",
+    "ai-workflows",
+    "agentic-ai",
+    "team-training",
+    "business-automation",
+    "agents-md"
+  ]
+}
