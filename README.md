@@ -22,6 +22,12 @@ This project is not another AI code reviewer. It does not call an LLM, does not 
 
 [QR для учеников](https://github.com/romanigoliro-stack/ai-team-agent-kit/blob/main/docs/assets/automation-design-qr.png)
 
+## Codex skill: ревью кода 9,5
+
+[Установка и запуск ревью для учеников](https://github.com/romanigoliro-stack/ai-team-agent-kit/blob/main/docs/code-review-95.md)
+
+Независимые ревьюеры, проверка ошибок, исправления и повторное ревью. Проходной результат требует минимум 9,5 у каждого финального ревьюера и пройденных обязательных проверок.
+
 ## The problem
 
 Teams often adopt Codex, GitHub Copilot, Claude, Cursor, and other AI coding agents before they agree on how those agents should work.

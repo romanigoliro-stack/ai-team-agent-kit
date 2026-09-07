@@ -1,0 +1,6 @@
+interface:
+  display_name: "Код-ревью 9,5"
+  short_description: "Мультиагентное ревью с порогом 9,5/10"
+  default_prompt: "Use $code-review-95 to review the current code changes with independent subagents and continue until the verified score is at least 9.5/10."
+policy:
+  allow_implicit_invocation: true
