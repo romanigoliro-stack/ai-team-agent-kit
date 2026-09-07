@@ -14,6 +14,14 @@ The npm package is available at https://www.npmjs.com/package/ai-team-agent-kit.
 
 This project is not another AI code reviewer. It does not call an LLM, does not require an API key, and does not send your code anywhere. It gives your repository practical files that help people and AI coding agents work with the same rules.
 
+## Codex skill: проектирование автоматизации
+
+[Установка и запуск для учеников](https://github.com/romanigoliro-stack/ai-team-agent-kit/blob/main/docs/automation-design.md)
+
+Скилл проводит короткое интервью и выдаёт готовое задание для разработки в новом чате Codex. Работает и в обычном режиме, и в Plan mode. Устанавливается отдельно из GitHub; инструкция по ссылке выше.
+
+[QR для учеников](https://github.com/romanigoliro-stack/ai-team-agent-kit/blob/main/docs/assets/automation-design-qr.png)
+
 ## The problem
 
 Teams often adopt Codex, GitHub Copilot, Claude, Cursor, and other AI coding agents before they agree on how those agents should work.
